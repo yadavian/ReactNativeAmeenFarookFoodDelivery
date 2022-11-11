@@ -1,0 +1,113 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "048555c4d0c3a6022b480be4596b1c95d605d32b"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "b9b65c039a1f10a5cb5e0726c6e7e18e98a8e517"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "66815173c5954271fac6b3ef51076f186577ad6f"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "76ae3e4052ea2a21facd642ddd13cbaa80650fa6"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "246982f0e815573f4915b4dd6f9861d56f147da2"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "af7058373acbcf383dd114b8f9bbfb9faafd79eb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "01d319c533f62ea29f03b5df8adfd4d93d2d2a38"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "20b39c8b480c946b084d6aa09f12bf10b2ec5aa6"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "c5c36432a1d00d653bde8a47f4c99171f02362e8"
+    },
+    {
+      "path": "src/assets/images/burger.png",
+      "sha1": "c32e0feeb4a8a57c5d6e87ef113c08819f8a08e2"
+    },
+    {
+      "path": "src/assets/images/deliver.png",
+      "sha1": "de436f60cc460537a484fc02bb202d08cf5e1624"
+    },
+    {
+      "path": "src/assets/images/delivery_charge.png",
+      "sha1": "04625df015b9f4f16a0a81c1c456375d4fe33df9"
+    },
+    {
+      "path": "src/assets/images/delivery_time.png",
+      "sha1": "2d820e32b2772afa5cbc4bdb6fbf8c4a626cb06f"
+    },
+    {
+      "path": "src/assets/images/dessert.png",
+      "sha1": "641144ceda1b561974773af7da127060b78aca6a"
+    },
+    {
+      "path": "src/assets/images/discover.png",
+      "sha1": "891679418ae89acaf5dddd4e71ca9cb2ce9ba7bc"
+    },
+    {
+      "path": "src/assets/images/drinks.png",
+      "sha1": "7488d8b3435846de06253f201e529ec2702384be"
+    },
+    {
+      "path": "src/assets/images/empty_cart.png",
+      "sha1": "e240776130fe785d2ec3d142f80b9fe98a8bebb2"
+    },
+    {
+      "path": "src/assets/images/facebook.png",
+      "sha1": "f7fb7dba2db978df80ef16d0da3b2cba3fca4cfe"
+    },
+    {
+      "path": "src/assets/images/favorite.png",
+      "sha1": "3e2091f929c0b5cf7b2dc1fa1f0d0f71577c8f8a"
+    },
+    {
+      "path": "src/assets/images/fried_chicken.png",
+      "sha1": "48865f7335be7fc21ecadec31add40ca41d41971"
+    },
+    {
+      "path": "src/assets/images/google.png",
+      "sha1": "3cde834499de24695c70e8f7db60e35ac855a1d2"
+    },
+    {
+      "path": "src/assets/images/loading.json",
+      "sha1": "986cfe720003cf6cdada335de9fabf573e9d5ff4"
+    },
+    {
+      "path": "src/assets/images/marker.png",
+      "sha1": "0a1219c8c8df9b3c079451409d055149de0843b6"
+    },
+    {
+      "path": "src/assets/images/noodles.png",
+      "sha1": "376c9578cc4085337185b57487bec4d76f38355a"
+    },
+    {
+      "path": "src/assets/images/pizza.png",
+      "sha1": "f84f07dd97b88b08cbfaff04a27b0e1e07af3e31"
+    },
+    {
+      "path": "src/assets/images/plate.png",
+      "sha1": "c69cb05f7a151448c686427f727c70703abb6ba2"
+    },
+    {
+      "path": "src/assets/images/user_avatar.png",
+      "sha1": "734324e340f7de44ff074af8491fdef18fd14e7e"
+    }
+  ]
+}
