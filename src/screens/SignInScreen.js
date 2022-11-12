@@ -82,7 +82,7 @@ export default function SignInScreen({ navigation }) {
                 </TouchableOpacity>
             </View>
 
-            <TouchableOpacity style={styles.signInButton}>
+            <TouchableOpacity style={styles.signInButton}  onPress={()=>navigation.navigate('BottomTabs')}>
                 <Text style={styles.signInText}>Sign In</Text>
             </TouchableOpacity>
 

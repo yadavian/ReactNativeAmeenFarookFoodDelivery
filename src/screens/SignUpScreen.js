@@ -90,7 +90,9 @@ export default function SignUpScreen({ navigation }) {
                 </View>
             </View>
 
-            <TouchableOpacity style={styles.signInButton}>
+            <TouchableOpacity style={styles.signInButton} 
+            onPress={()=>navigation.navigate('RegisterPhone')}
+            >
                 <Text style={styles.signInText}>Create Account</Text>
             </TouchableOpacity>
             <Separator height={setHeight(2)} />
