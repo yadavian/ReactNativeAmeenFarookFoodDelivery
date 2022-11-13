@@ -88,7 +88,7 @@ export default function CartScreen() {
                             <Text style={styles.checkoutText}>$ 600</Text>
                         </TouchableOpacity>
 
-                        <TouchableOpacity style={[styles.checkoutButton, { backgroundColor: Colors.SECONDARY_GREEN }]} onPress={() => setCartEmpty(true)}>
+                        <TouchableOpacity style={[styles.checkoutButton, { backgroundColor: Colors.SECONDARY_RED }]} onPress={() => setCartEmpty(true)}>
                             <View style={styles.rowAndCenter}>
                                 <Ionicons name='cart-outline' color={Colors.DEFAULT_WHITE} size={20} />
                                 <Text style={styles.checkoutText}>Clear Cart</Text>

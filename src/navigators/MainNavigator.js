@@ -13,6 +13,7 @@ import HomeScreen from '../screens/HomeScreen';
 import RestaurantScreen from '../screens/RestaurantScreen';
 import CartScreen from '../screens/CartScreen';
 import BottomTabs from './BottomTabs';
+import FoodScreen from '../screens/FoodScreen';
 
 export default function MainNavigator() {
     const Stack = createNativeStackNavigator();
@@ -29,6 +30,7 @@ export default function MainNavigator() {
                 <Stack.Screen name="BottomTabs" component={BottomTabs} options={{ headerShown: false }} />
                 <Stack.Screen name="RestaurantScreen" component={RestaurantScreen} options={{ headerShown: false }} />
                 <Stack.Screen name="CartScreen" component={CartScreen} options={{ headerShown: false }} />
+                <Stack.Screen name="FoodScreen" component={FoodScreen} options={{ headerShown: false }} />
             </Stack.Navigator>
         </NavigationContainer>
     )

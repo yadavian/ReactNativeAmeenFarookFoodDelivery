@@ -11,7 +11,7 @@ import FoodCard from '../components/FoodCard';
 export default function RestaurantScreen({ navigation, route }) {
     const [currentRestaurant, setCurrentRestaurant] = useState(0)
     const { restaurantId } = route.params;
-    console.log(`\n\n\n currentRestaurant  =>`, currentRestaurant)
+    // console.log(`\n\n\n currentRestaurant  =>`, currentRestaurant)
 
     useEffect(() => {
         const loadRestaurant = async () => {
@@ -84,7 +84,7 @@ export default function RestaurantScreen({ navigation, route }) {
                             {/* FOOD LIST */}
                             <View>
                                 {FoodsJson.map((d, i) => {
-                                    return <FoodCard foodData={d} />
+                                    return <FoodCard foodData={d} navigation={navigation} />
                                 })}
                             </View>
                         </View>

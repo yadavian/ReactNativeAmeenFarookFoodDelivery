@@ -5,7 +5,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 import { Colors, CountryCode, Fonts, Restaurant } from '../contants'
 
 export default function RestaurantCardCard({ restaurantData, navigation }) {
-    console.log(`restaurantData\n\n\n  =>`, restaurantData)
+    // console.log(`restaurantData\n\n\n  =>`, restaurantData)
     return (
         <TouchableOpacity style={styles.container} onPress={() => navigation.navigate('RestaurantScreen', {
             restaurantId: restaurantData.id

@@ -4,21 +4,21 @@ import AntDesign from 'react-native-vector-icons/AntDesign'
 import { Colors, Fonts } from '../contants'
 import { setWidth } from '../utils/Display'
 
-export default function FoodCard({ foodData }) {
+export default function FoodCard({ foodData, navigation }) {
     return (
-        <View style={styles.container}>
+        <TouchableOpacity style={styles.container} onPress={() => navigation.navigate('FoodScreen')}>
 
-            <TouchableOpacity>
+            <View>
                 <Image style={styles.image} source={foodData?.image} />
-            </TouchableOpacity>
+            </View>
 
 
             <View style={styles.detailContainer}>
 
-                <TouchableOpacity>
+                <View>
                     <Text style={styles.titleText}>{foodData.name}</Text>
                     <Text style={styles.descText}>{foodData.description}</Text>
-                </TouchableOpacity>
+                </View>
 
                 <View style={styles.footerContainer}>
                     <Text style={styles.priceText}>$ {foodData.price}</Text>
@@ -30,9 +30,7 @@ export default function FoodCard({ foodData }) {
                 </View>
             </View>
 
-
-
-        </View>
+        </TouchableOpacity>
 
 
     )
@@ -95,6 +93,6 @@ const styles = StyleSheet.create({
         color: Colors.DEFAULT_BLACK,
         fontFamily: Fonts.POPPINS_BOLD,
         fontSize: 14,
-        marginHorizontal : 10
+        marginHorizontal: 10
     }
 })
